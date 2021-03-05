@@ -9,7 +9,8 @@ var totale = document.getElementById('total');
 calcolatore.addEventListener("click",
   function () {
     // controllo se viene inserito il nome del burger
-    if (burger != "") {
+    if (burger.value != "") {
+      console.log(burger);
       // controllo gli ingredienti
       for (var i = 0; i < ingredienti.length; i++) {
         // se la checkbox è spuntata allora verrà sommata

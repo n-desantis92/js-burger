@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF5E2;
+}
+
+.page-container {
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+header {
+  height: 100px;
+  background-color: #FDBB40;
+  position: relative;
+  padding: 30px 40px 20px;
+}
+
+header img {
+  width: 230px;
+  position: absolute;
+  right: -100px;
+  top: -50px;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+.burger-name {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#input-burger-name {
+  border: 0;
+  font-size: 20px;
+  outline: none;
+}
