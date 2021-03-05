@@ -43,3 +43,30 @@ main {
   font-size: 20px;
   outline: none;
 }
+
+.lista-ingredienti {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lista-ingredienti li {
+  list-style: none;
+  width: 50%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.lista-ingredienti li label {
+display: flex;
+align-items: center;
+}
+
+.lista-ingredienti li img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.lista-ingredienti li input {
+  margin-left: 10px;
+}
