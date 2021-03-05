@@ -52,7 +52,7 @@ main {
 
 .lista-ingredienti li {
   list-style: none;
-  width: 50%;
+  width: 40%;
   height: 40px;
   margin-top: 20px;
 }
@@ -60,6 +60,10 @@ main {
 .lista-ingredienti li label {
 display: flex;
 align-items: center;
+}
+
+.lista-ingredienti label:hover {
+  cursor: pointer;
 }
 
 .lista-ingredienti li img {
@@ -81,4 +85,25 @@ align-items: center;
   border: none;
   margin-left: 10px;
   border-radius: 5px;
+}
+
+.bottone-calcolatore {
+  display: flex;
+  justify-content: center;
+}
+
+.bottone-calcolatore button {
+  padding: 10px 20px;
+  background-color: #FDBB40;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.bottone-calcolatore button:active {
+  outline: none;
+}
+
+.bottone-calcolatore button:hover {
+  cursor: pointer;
 }
