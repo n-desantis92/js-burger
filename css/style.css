@@ -70,3 +70,15 @@ align-items: center;
 .lista-ingredienti li input {
   margin-left: 10px;
 }
+
+.discount {
+  margin: 30px 0;
+}
+
+#coupon {
+  background-color: #FFF5E2;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
