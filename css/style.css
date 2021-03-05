@@ -46,6 +46,7 @@ main {
 }
 
 .lista-ingredienti {
+  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -53,7 +54,7 @@ main {
 
 .lista-ingredienti li {
   list-style: none;
-  width: 40%;
+  width: 50%;
   height: 40px;
   margin-top: 20px;
 }
@@ -87,7 +88,7 @@ align-items: center;
   margin-left: 10px;
   border-radius: 5px;
   height: 20px;
-  width: 40%;
+  width: 50%;
 }
 
 .bottone-calcolatore {
