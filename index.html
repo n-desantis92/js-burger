@@ -20,32 +20,32 @@
         <ul class="lista-ingredienti">
           <li>
             <label for="cheese"> Cheese
-              <input id="cheese" type="checkbox" value="4">
+              <input id="cheese" class="add-ingredient" type="checkbox" value="4">
             </label>
           </li>
           <li>
             <label for="egg"> Egg
-              <input id="egg" type="checkbox" value="6">
+              <input id="egg" class="add-ingredient" type="checkbox" value="6">
             </label>
           </li>
           <li>
             <label for="mustard"> Mustard
-              <input id="mustard" type="checkbox" value="2">
+              <input id="mustard" class="add-ingredient" type="checkbox" value="2">
             </label>
           </li>
           <li>
             <label for="tomato"> Tomato
-              <input id="tomato" type="checkbox" value="3">
+              <input id="tomato" class="add-ingredient" type="checkbox" value="3">
             </label>
           </li>
           <li>
             <label for="lettuce"> Lettuce
-              <input id="lettuce" type="checkbox" value="3">
+              <input id="lettuce" class="add-ingredient" type="checkbox" value="3">
             </label>
           </li>
           <li>
             <label for="ketchup"> Ketchup
-              <input id="ketchup" type="checkbox" value="2">
+              <input id="ketchup" class="add-ingredient" type="checkbox" value="2">
             </label>
           </li>
         </ul>
@@ -55,10 +55,16 @@
           <input type="text" placeholder="cupon">
         </label>
       </div>
+      <div class="bottone-calcolatore">
+        <button id="calculate">Calculate</button>
+      </div>
     </main>
 
     <footer>
-
+      <div class="">
+        Your Price
+      </div>
+      <div id="total">50€</div>
     </footer>
   </div>
   <script src="script/script.js" charset="utf-8"></script>
