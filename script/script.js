@@ -1,7 +1,6 @@
 var calcolatore = document.getElementById('calculate');
 var burger = document.getElementById('input-burger-name');
 var ingredienti = document.getElementsByClassName('add-ingredient');
-var somma = 50;
 var coupons = ["a","b","c","vip"];
 var coupon = document.getElementById('coupon');
 var totale = document.getElementById('total');
@@ -12,6 +11,7 @@ calcolatore.addEventListener("click",
     if (burger.value != "") {
       console.log(burger);
       // controllo gli ingredienti
+      var somma = 50;
       for (var i = 0; i < ingredienti.length; i++) {
         // se la checkbox è spuntata allora verrà sommata
         console.log(ingredienti[i].checked);
